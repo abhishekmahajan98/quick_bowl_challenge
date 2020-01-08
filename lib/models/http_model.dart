@@ -6,7 +6,7 @@ class HttpModel {
   static String comment;
   final perspectiveApiUrl =
       "https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze";
-  final apiKey = "AIzaSyBe2JYm0NdPeRQlyOxk9HmRymw4WOSwkuM";
+  final apiKey = "YOUR API KEY";
   var headers = {'Content-Type': 'application/json'};
   var data = json.encode(
     {
